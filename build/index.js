@@ -36,7 +36,7 @@ function Edit({
   setAttributes
 }) {
   const blockProps = (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_3__.useBlockProps)({
-    className: 'wz-dynamic-block'
+    className: 'post-dynamic-block'
   });
   const {
     postsToShow,

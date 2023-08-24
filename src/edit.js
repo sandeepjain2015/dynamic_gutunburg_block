@@ -18,7 +18,7 @@ import './editor.scss';
 
 export default function Edit( { attributes, setAttributes } ) {
 	const blockProps = useBlockProps( {
-		className: 'wz-dynamic-block',
+		className: 'post-dynamic-block',
 	} );
 
 	const { postsToShow, showHeading, heading, order, orderBy } = attributes;
